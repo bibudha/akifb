@@ -32,6 +32,10 @@
 
     <script src="js/jquery.bxslider.js" type="text/javascript"></script>
     <script>
+    try
+  {
+  
+ 
         $(document).ready(function () {
             $('.header-content .back').hide();
             getLicenceData();
@@ -39,7 +43,15 @@
         
         });
 
-
+ }
+catch(err)
+  {
+  txt="There was an error on this page.\n\n";
+  txt+="Error description: " + err.message + "\n\n";
+  txt+="Click OK to continue.\n\n";
+  alert(txt);
+  }
+}
     </script>
 </head>
 <body>
