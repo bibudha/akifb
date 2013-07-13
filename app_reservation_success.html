@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Success</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/mobile_style.css">
+    <link rel="stylesheet" type="text/css" href="css/photoswipe.css">
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.mobile.js"></script>
+    <script type="text/javascript" src="js/jquery.validate.js"></script>
+    <script type="text/javascript" src="js/modernizr-2.0.6.min.js"></script>
+    <script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <script type="text/javascript" src="http://jquery-ui-map.googlecode.com/svn/trunk/ui/jquery.ui.map.js"></script>
+    <script type="text/javascript" src="js/map.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/klass.min.js"></script>
+    <script type="text/javascript" src="js/code.photoswipe.jquery-3.0.5.min.js"></script>
+    <script src="js/app.js"></script>
+
+
+
+</head>
+<body>
+    <input type="hidden" id="userSiteId" value="">
+    <input type="hidden" id="lastClick" value="">
+    <a id="addSteps" href="#fanwallPopup" onclick="" data-position-to="window" data-rel="popup"></a>
+    <input type="hidden" id="BackSteps" value="1">
+    <div data-role="page">
+        <div data-role="header" role="banner" class="header-content">
+
+            <h1>Success</h1>
+
+            <a data-icon="star" data-role="button" data-ajax="false" class="ui-btn-right" onclick="app.res_register()">Register</a>
+        </div>
+        <!-- /header -->
+
+
+        <div data-role="content" id="main-content">
+
+            <div style="display:none" data-role="collapsible-set" data-theme="c" data-content-theme="d">
+                
+                <div data-role="collapsible" data-collapsed="true">
+                      <h3>Section 1</h3>
+                    <div>data</div>
+                    <div data-role="collapsible-set" data-theme="c" data-content-theme="d">
+
+                        <div data-role="collapsible" data-collapsed="false">
+                            <h3>Section 1</h3>
+                            <p>I'm the collapsible set content for section 1.</p>
+                        </div>
+                        <div data-role="collapsible">
+                            <h3>Section 2</h3>
+                            <p>I'm the collapsible set content for section 2.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div data-role="content" id="Div2">
+
+                <h2 style="color: green;">Reservation successfully done</h2>
+                <a id="btnLogin" data-theme="a" data-role="button">Back To Reservation Home</a>
+
+            </div>
+
+
+        </div>
+        <!-- /content -->
+    </div>
+    <!-- /page -->
+
+</body>
+</html>
